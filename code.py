@@ -1,6 +1,6 @@
-def say_hello() -> None:
-    print("hello world!");
+def say_hello(name):
+    print("hello " + name);
 
 
 if __name__ == "__main__":
-    say_hello();
+    say_hello("Travis");
